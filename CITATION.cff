@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "Shear Coupled Grain Boundary Migration: image and maps processing scripts"
+version: 1.1
+license: "GNU General Public License v3.0"
+type: software
+abstract: "Processing scripts for: misorientation maps calculation , image realignements before/after creep, fiducial markers displacement measurement."
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: Romain
+    family-names: Gautier
+    affiliation: CEMES-CNRS and IMT Nord Europe
+  - given-names: Frederic
+    family-names: Mompiou
+    affiliation: CEMES-CNRS
+  - given-names: Oliver
+    family-names: Renk
+    affiliation: Montanuniversität Leoben
+  - given-names: Christophe
+    family-names: Coupeau
+    affiliation: Institut Pprime
+  - given-names: Nicolas
+    family-names: Combe
+    affiliation: CEMES-CNRS
+  - given-names: Grégory
+    family-names: Seine
+    affiliation: CEMES-CNRS
+  - given-names: Marc
+    family-names: Legros
+    affiliation: CEMES-CNRS   
+keywords:
+  - EBSD, AFM, TEM
