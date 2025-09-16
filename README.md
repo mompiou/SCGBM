@@ -22,6 +22,9 @@ Use to provide automatic geometric transformation of AFM and EBSD maps before an
 
 - Markers centroids from segmentation maps were computed using watershed (OpenCV implementation) and geometric transformation was estimated between markers before and after creep. Need more than two markers (not the case for the images avant.bmp and apres.bmp): ```image_correction.py``` (input: two images before and after creep, output: the transformation matrix; the corrected image)
 
+## Digital Image Correlation
+
+```DIC.py``` helps in defining markers to follow at sample surface during grain boundary migration. Track these markers between two images by template matching (roi search). Input: two images and markers position in the first (array of (x,y,w,h) ROIs). Compute displacements and draw vectors at ROIs. Use openCV.
 
 ## Contributions
 Romain Gautier, Frédéric Mompiou
